@@ -9,5 +9,4 @@ headers = {
 response = requests.request("GET", url, headers=headers)
 
 print(response.text)
-print("\n")
-print(response.status_code)
+print("\n", response.status_code)
